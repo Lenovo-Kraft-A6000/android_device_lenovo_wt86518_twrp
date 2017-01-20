@@ -39,7 +39,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno306
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
-TARGET_USES_UNCOMPRESSED_KERNEL := true
+#TARGET_USES_UNCOMPRESSED_KERNEL := true
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
