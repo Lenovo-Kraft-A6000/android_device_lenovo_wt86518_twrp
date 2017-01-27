@@ -76,6 +76,8 @@ TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_INCLUDE_CRYPTO := true
 TW_THEME := portrait_hdpi
+TW_EXCLUDE_SUPERSU := true
+TW_INCLUDE_NTFS_3G := true
 
 # Asian region languages
 TW_EXTRA_LANGUAGES := true
